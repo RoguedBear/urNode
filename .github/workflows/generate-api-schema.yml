@@ -6,10 +6,10 @@ on:
 #      - main # incase the master branch is ever renamed to main
     paths:
       - '.github/workflows/generate-api-schema.yml'
-  pull_request:
-    branches:
-      - master
-      - main
+  pull_request_target:
+#     branches:
+#       - master
+#       - main
   workflow_dispatch:
 
 
